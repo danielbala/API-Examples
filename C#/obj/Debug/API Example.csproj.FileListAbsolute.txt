@@ -1,0 +1,5 @@
+c:\users\matt.butlar\documents\visual studio 2010\Projects\API Example\API Example\bin\API Example.dll
+c:\users\matt.butlar\documents\visual studio 2010\Projects\API Example\API Example\bin\API Example.pdb
+c:\users\matt.butlar\documents\visual studio 2010\Projects\API Example\API Example\obj\Debug\ResolveAssemblyReference.cache
+c:\users\matt.butlar\documents\visual studio 2010\Projects\API Example\API Example\obj\Debug\API Example.dll
+c:\users\matt.butlar\documents\visual studio 2010\Projects\API Example\API Example\obj\Debug\API Example.pdb

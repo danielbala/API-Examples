@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="API_Example.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="API_Example_mindbodyonline_api_classservice_Class_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://api.mindbodyonline.com/0_5/ClassService.asmx</Value>
+    </Setting>
+    <Setting Name="API_Example_mindbodyonline_api_clientservice_Client_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://api.mindbodyonline.com/0_5/ClientService.asmx</Value>
+    </Setting>
+    <Setting Name="API_Example_mindbodyonline_api_appointmentservice_Appointment_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://api.mindbodyonline.com/0_5/AppointmentService.asmx</Value>
+    </Setting>
+    <Setting Name="API_Example_mindbodyonline_api_finderservice_Finder_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://api.mindbodyonline.com/0_5/FinderService.asmx</Value>
+    </Setting>
+    <Setting Name="API_Example_mindbodyonline_api_dataservice_Data_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://api.mindbodyonline.com/0_5/DataService.asmx</Value>
+    </Setting>
+    <Setting Name="API_Example_mindbodyonline_api_saleservice_Sale_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://api.mindbodyonline.com/0_5/SaleService.asmx</Value>
+    </Setting>
+    <Setting Name="API_Example_mindbodyonline_api_siteservice_Site_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://api.mindbodyonline.com/0_5/SiteService.asmx</Value>
+    </Setting>
+    <Setting Name="API_Example_mindbodyonline_api_staffservice_Staff_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://api.mindbodyonline.com/0_5/StaffService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
