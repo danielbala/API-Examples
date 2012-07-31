@@ -63,6 +63,9 @@ namespace API_Example
             saleRequest.SourceCredentials.Password = password;
             saleRequest.SourceCredentials.SiteIDs = siteIDs;
 
+            // Add ClientID
+            saleRequest.ClientID = "100000000";
+
             // Create and add cart items
             SaleService.CartItem[] items = {new SaleService.CartItem()};
             items[0].ID = 93;
