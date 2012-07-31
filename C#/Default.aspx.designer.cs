@@ -13,12 +13,12 @@ namespace API_Example {
     public partial class _Default {
         
         /// <summary>
-        /// Classes control.
+        /// Label control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Classes;
+        protected global::System.Web.UI.WebControls.Label Label;
     }
 }

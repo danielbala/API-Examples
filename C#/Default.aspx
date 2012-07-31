@@ -5,5 +5,5 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h1>All Classes</h1>
-    <p><asp:label ID="Classes" runat="server"></asp:label></p>
+    <p><asp:label ID="Label" runat="server"></asp:label></p>
 </asp:Content>

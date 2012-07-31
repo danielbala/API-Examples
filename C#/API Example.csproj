@@ -50,16 +50,20 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Account\ChangePassword.aspx" />
-    <Content Include="Account\ChangePasswordSuccess.aspx" />
-    <Content Include="Account\Login.aspx" />
-    <Content Include="Account\Register.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <None Include="Web References\AppointmentService\AppointmentService.disco" />
+    <None Include="Web References\ClassService\ClassService.disco" />
+    <None Include="Web References\ClientService\ClientService.disco" />
+    <None Include="Web References\DataService\DataService.disco" />
+    <None Include="Web References\FinderService\FinderService.disco" />
+    <None Include="Web References\SaleService\SaleService.disco" />
+    <None Include="Web References\SiteService\SiteService.disco" />
+    <None Include="Web References\StaffService\StaffService.disco" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -69,34 +73,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account\ChangePassword.aspx.cs">
-      <DependentUpon>ChangePassword.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\ChangePassword.aspx.designer.cs">
-      <DependentUpon>ChangePassword.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
-      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
-      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -165,7 +141,6 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Account\Web.config" />
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
@@ -175,10 +150,10 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/AppointmentService.asmx%3fwsdl">
+    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/AppointmentService.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\AppointmentService\</RelPath>
-      <UpdateFromURL>http://api.mindbodyonline.com/0_5/AppointmentService.asmx%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>http://api.mindbodyonline.com/0_5/AppointmentService.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -186,10 +161,10 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>API_Example_mindbodyonline_api_appointmentservice_Appointment_x0020_Service</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/ClassService.asmx%3fwsdl">
+    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/ClassService.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\ClassService\</RelPath>
-      <UpdateFromURL>http://api.mindbodyonline.com/0_5/ClassService.asmx%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>http://api.mindbodyonline.com/0_5/ClassService.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -197,10 +172,10 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>API_Example_mindbodyonline_api_classservice_Class_x0020_Service</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/ClientService.asmx%3fwsdl">
+    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/ClientService.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\ClientService\</RelPath>
-      <UpdateFromURL>http://api.mindbodyonline.com/0_5/ClientService.asmx%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>http://api.mindbodyonline.com/0_5/ClientService.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -208,10 +183,10 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>API_Example_mindbodyonline_api_clientservice_Client_x0020_Service</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/DataService.asmx%3fwsdl">
+    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/DataService.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\DataService\</RelPath>
-      <UpdateFromURL>http://api.mindbodyonline.com/0_5/DataService.asmx%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>http://api.mindbodyonline.com/0_5/DataService.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -219,10 +194,10 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>API_Example_mindbodyonline_api_dataservice_Data_x0020_Service</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/FinderService.asmx%3fwsdl">
+    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/FinderService.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\FinderService\</RelPath>
-      <UpdateFromURL>http://api.mindbodyonline.com/0_5/FinderService.asmx%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>http://api.mindbodyonline.com/0_5/FinderService.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -230,10 +205,10 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>API_Example_mindbodyonline_api_finderservice_Finder_x0020_Service</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/SaleService.asmx%3fwsdl">
+    <WebReferenceUrl Include="https://api.mindbodyonline.com/0_5/SaleService.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\SaleService\</RelPath>
-      <UpdateFromURL>http://api.mindbodyonline.com/0_5/SaleService.asmx%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>https://api.mindbodyonline.com/0_5/SaleService.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -241,10 +216,10 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>API_Example_mindbodyonline_api_saleservice_Sale_x0020_Service</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/SiteService.asmx%3fwsdl">
+    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/SiteService.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\SiteService\</RelPath>
-      <UpdateFromURL>http://api.mindbodyonline.com/0_5/SiteService.asmx%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>http://api.mindbodyonline.com/0_5/SiteService.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -252,10 +227,10 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>API_Example_mindbodyonline_api_siteservice_Site_x0020_Service</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/StaffService.asmx%3fwsdl">
+    <WebReferenceUrl Include="http://api.mindbodyonline.com/0_5/StaffService.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\StaffService\</RelPath>
-      <UpdateFromURL>http://api.mindbodyonline.com/0_5/StaffService.asmx%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>http://api.mindbodyonline.com/0_5/StaffService.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
