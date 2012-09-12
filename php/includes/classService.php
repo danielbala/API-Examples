@@ -66,7 +66,7 @@ class MBClassService extends MBAPIService
 		{
 			$additions['ClassDescriptionIDs'] = $classDescriptionIDs;
 		}
-		if (isset($classID))
+		if (isset($classIDs))
 		{
 			$additions['ClassIDs'] = $classIDs;
 		}
